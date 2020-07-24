@@ -1,10 +1,10 @@
 ### Merge and do clustering for only germ cells on 6.24.2019 by Qianyi
 # directly merge germ cells from 8 datasets, do focused germ cell subset clustering 
 
-1 species: mouse
-8 datasets:
-  4 time points: 8 dpi, 13 dpi, 16 dpi, 21 dpi
-  2 types: WT vs SCARKO (sertoli-cell Androgen-receptor knockout)
+#1 species: mouse
+#8 datasets:
+#  4 time points: 8 dpi, 13 dpi, 16 dpi, 21 dpi
+#  2 types: WT vs SCARKO (sertoli-cell Androgen-receptor knockout)
 
 
 library(Seurat)
