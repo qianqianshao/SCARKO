@@ -86,4 +86,4 @@ pdf(file=paste("Global_Batch_Centroid_RankedCorrelation.pdf",sep=""),height=6,wi
 par(mar=c(4,4,1,1),mgp=c(2.5, 1, 0))
 heatmap.3(all_cor,dendrogram="none",Rowv=NA,Colv=NA,trace = "none",col=col.use,colsep = colsep.use,rowsep=colsep.use,sepcolor="black",sepwidth=c(0.001,0.001),RowSideColors=rlab,ColSideColors=clab,labCol=col.lab,labRow=row.lab,cexCol=.8,cexRow=.8,ColSideColorsSize = 1.8,RowSideColorsSize = 1.8,symm=F,symkey=F,symbreaks=F, scale="none",margins=c(5,7))
 dev.off()
-# save as FigS1A
+# saved as FigS1A
