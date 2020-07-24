@@ -108,7 +108,7 @@ dev.off()
 # saved as Fig4C
 
 
-### plot Fig S2: visualize known markers used to classify each cell type
+### plot Fig S2: visualize known markers used to classify each of the 7 global cell types
 knownmarkers=c("Stra8","Dazl","Mki67","Piwil1","Zbtb16","Gfra1","Id4","Sohlh1","Sohlh2",
 "Syce1","Setx","Sycp2","Spag6","Sycp3",
 "Amhr2","Sox9","Rhox8","Clu","Wt1","Dmrt1","Inha","Tubb3",
