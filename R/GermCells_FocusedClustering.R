@@ -6,6 +6,16 @@
   4 time points: 8 dpi, 13 dpi, 16 dpi, 21 dpi
   2 types: WT vs SCARKO (sertoli-cell Androgen-receptor knockout)
 
+
+library(Seurat)
+library(dplyr)
+library(Matrix)
+library(gplots)
+library(cowplot)
+library(RColorBrewer)
+myBrewerPalette=c(brewer.pal(12,"Paired"),brewer.pal(8,"Dark2")[c(4,8,1)],brewer.pal(8,"Set2")[c(4,8,1)])
+redblue100<-rgb(read.table('../redblue100.txt',sep='\t',row.names=1,header=T))
+
 ### load raw data for germ cells from each of the 8 datasets
 label=c("dpi8WT","dpi8SCARKO","dpi13WT","dpi13SCARKO","dpi16WT","dpi16SCARKO","dpp21WT","dpp21SCARKO")
 rawgc=list()
